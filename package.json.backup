@@ -1,0 +1,14 @@
+{
+  "name": "apolloserver",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "apollo-client": "^0.4.11",
+    "apollo-server": "^0.2.4",
+    "express": "^4.14.0",
+    "graphql": "^0.6.2",
+    "meteor-node-stubs": "~0.2.0"
+  }
+}
