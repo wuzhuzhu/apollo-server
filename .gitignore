@@ -1,3 +1,7 @@
 node_modules/
 .idea
 run.sh
+.gitignore
+settings-local.json
+settings-production.json
+package.json

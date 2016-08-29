@@ -1,0 +1,65 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+
+  "globals": {
+    "React": true,
+    "d3": true,
+    "TTS": true,
+    "BpManagerCordova": true,
+    "BTToolManagerCordova": true,
+    "Accounts": true,
+    "Roles": true,
+    "device": true,
+    "MipushManagerCordova": true,
+    "Media": true,
+    "HTTP": true,
+    "AppVersion": true,
+    "cordova": true,
+    "FileTransfer": true,
+    "_": true,
+    "Assets": true,
+    "__meteor_runtime_config__": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    }
+  },
+  "plugins": [
+    "react",
+    "meteor"
+  ],
+  "settings": {
+    "import/resolver": "meteor",
+  },
+  "extends": [
+    "airbnb",
+    "plugin:meteor/recommended",
+  ],
+
+  "rules": {
+    "semi": ["error", "never"],
+    "padded-blocks": 0,
+    "callback-return": 2,
+    "consistent-return": 0,
+    "no-console": 0,
+    "no-unused-expressions": ["error", { "allowShortCircuit": true }],
+    "no-underscore-dangle": 0,
+    "no-confusing-arrow": 0,
+    "no-nested-ternary": 0,
+    "no-unresolved": 0,
+    "func-names": 0,
+    "no-multi-comp": 0,
+    "react/no-multi-comp": 0,
+    "react/prefer-stateless-function": 0,
+    "meteor/audit-argument-checks": 0,
+    "no-shadow": 0
+  }
+}
